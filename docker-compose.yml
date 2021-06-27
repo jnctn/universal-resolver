@@ -204,3 +204,7 @@ services:
     image: halialabsdev/emtrust_did_driver:latest
     ports:
       - "8120:8080"
+  driver-did-jnctn:
+    image: jnctn/driver-did-jnctn:latest
+    ports:
+      - "8029:80"

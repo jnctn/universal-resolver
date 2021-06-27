@@ -228,6 +228,11 @@
 			"pattern": "^(did:meta:.+)$",
 			"url": "https://resolver.metadium.com/1.0/identifiers/$1",
 			"testIdentifiers": [ "did:meta:0000000000000000000000000000000000000000000000000000000000005e65" ]
+		},
+		{
+			"pattern": "^(did:jnctn:.+)$",
+			"url": "http://driver-did-jnctn:8080/",
+			"testIdentifiers": [ "did:jnctn:12345" ]
 		}
 	]
 }
