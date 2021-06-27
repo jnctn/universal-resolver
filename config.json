@@ -232,7 +232,7 @@
 		{
 			"pattern": "^(did:jnctn:.+)$",
 			"url": "http://driver-did-jnctn:8080/",
-			"testIdentifiers": [ "did:jnctn:12345" ]
+			"testIdentifiers": [ "did:jnctn:70a40d1680b648ae8c77959a6a28d365" ]
 		}
 	]
 }
